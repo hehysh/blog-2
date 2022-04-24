@@ -25,3 +25,8 @@
     "hexo-theme-landscape": "^0.0.3"
   }
 }
+//package.json
+  "scripts": {
+    "dev": "hexo clean && hexo s",
+    "build": "hexo clean && hexo generate && gulp"
+  }
